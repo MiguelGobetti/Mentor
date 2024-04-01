@@ -1,0 +1,51 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #F3FFFD;
+    background-color: #1F0158;
+}
+
+header {
+    background: linear-gradient(to right, #0CA9FB, #0a82d1);
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: #F3FFFD;
+}
+
+nav {
+    padding-top: 10px;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #F3FFFD;
+    color: #1F0158;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    box-shadow: 0 0 10px #F3FFFD;
+}
+
+.welcome h2 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-left: 50px;
+    color: #F3FFFD;
+}
+
+.welcome p {
+    font-size: 1em;
+    text-align: left;
+    margin-left: 50px;
+    color: #F3FFFD;
+}
